@@ -1,0 +1,90 @@
+
+.navbar-nav{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+#cornav{
+    color: #008080ff;
+}
+#fundodif{
+    background-color: rgb(0, 128, 128, 0.60);
+    text-align: center;
+}
+#fundodif h1{
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: #e6e6e6ff;
+    padding: 2%;
+    margin-bottom: 0;
+}
+#imgbanner{
+    width: 100%;
+    height: 380px;
+
+}
+#flores{
+    padding-bottom: 3%;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 128, 128, 0.60);
+}
+#flores h1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+#arranjos{
+    background-color: rgb(0, 128, 128, 0.60);
+    padding-bottom: 3%;
+    font-family: 'Quicksand', sans-serif;
+    color: #aa0000ff;
+}
+#arranjos h1{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 35px;
+}
+.card{
+    margin: auto;
+}
+#fale-conosco{
+    padding: 7%;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(0, 128, 128, 0.60);
+}
+#fale-conosco h1{
+    padding-bottom: 3%;
+    font-size: 35px;
+}
+#fale-conosco h2{
+    font-size: 25px;
+}
+#footerlist {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #008080ff;
+    color: #e6e6e6ff;
+
+}
+  
+  
+.footer__list {
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    
+}
+#numero{
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+#redes{
+    opacity: 60%;
+    
+}
+
