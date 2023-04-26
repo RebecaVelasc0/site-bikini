@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <title>Loja de Biquínis</title>
+</head>
+<body>
+    <header>
+      <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg">
+          <a href="#" class="navbar-brand">
+            <img  id="logo" src="assets/img/logobikini.png" alt="Moda"> 
+
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+            aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbar-links">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link" href="#nav-container">Home</a>
+              <a class="nav-item nav-link" href="#pecas">Produtos</a>
+              <a class="nav-item nav-link" href="#promo">Promoção</a>
+              <a class="nav-item nav-link" href="#saiba-mais">Saiba Mais</a>
+              <a class="nav-item nav-link" href="#contato">Fontes</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Mais</a>
+                <ul class="dropdown-menu" id="dropcolor">
+                  <li><a class="dropdown-item" href="#mais-pecas">Mais Peças</a></li>
+                  <li><a class="dropdown-item" href="#meio-ambiente">Meio Ambiente</a></li>
+                  <li><a class="dropdown-item" href="#valores">Nossos Valores</a></li>
+                </ul>
+              </li>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/beach2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/beach.jpg" class="d-block w-100" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/beach3.jpg" class="d-block w-100" alt="..." >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-pecas" id="pecas">
+      <h1>Novas peças</h1>
+      <div class="row" >
+        <div class="col">
+          <img src="assets/img/fato-de-banho-em-fundo-amarelo-isolado.jpg" alt="roupa de banho">
+        </div>
+        <div class="col">
+          <img src="assets/img/maio.jpg" alt="roupa de banho">
+        </div>
+        <div class="col">
+          <img src="assets/img/biquini.jpg" alt="roupa de banho" >
+        </div>
+      </div>
+    </div>
+    <div class="container-texto1" id="text-container">
+      <p>
+        Apresentamos a nova coleção de verão da nossa loja de biquínis, com modelos exclusivos e estilos para todos os gostos e biotipos. 
+        A coleção deste ano foi inspirada nas tendências de moda praia em todo o mundo, trazendo peças modernas e sofisticadas. 
+        Selecionamos materiais de alta qualidade, como o tecido elastano, que oferecem conforto e durabilidade.
+      </p>
+    </div>
+    <div class="container text-center" id="promo">
+      <div class="row">
+        <div class="col" id="img-promo" >
+          <img src="assets/img/post.jpg" alt="img-promo">
+        </div>
+        <div class="col" id="promo-text">
+          <h1>Promoção</h1>
+          <h3>50% OFF</h3>
+          <h2>em qualquer compra acima de R$120,00</h2>
+          <p>Neste verão viemos com muitas novidades e descontos, e para você arrasar com novas peças, preparamos uma 
+            <b>SUPER PROMO</b> mais do que especial!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center" id="mais-pecas">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/biqui2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Biquíni Estampado</h5>
+              <p class="card-text">Para chamar atenção, um biquíni estampado deve ser o escolhido.</p>
+              <button type="button" class="btn btn-success">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/biqui.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Biquíni Branco</h5>
+              <p class="card-text">Simples e confortável, ideal para curtir uma praia.</p>
+              <button type="button" class="btn btn-success">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="assets/img/biqui3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maiô Preto</h5>
+              <p class="card-text">É indispensável ter um pretinho básico no seu closet.</p>
+              <button type="button" class="btn btn-success" >Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="fundo-dif" id="saiba-mais">
+    <h1>Quer receber nossas novidades em primeira mão?</h1>
+    <h3>
+       Ao se inscrever para receber nossos emails, você terá acesso a conteúdos exclusivos e informações privilegiadas
+       sobre a nossa loja, incluindo lançamentos de novas coleções, promoções especiais e dicas de moda e estilo para a 
+       temporada. Além disso, você também terá acesso a descontos e vantagens exclusivas para clientes cadastrados, o que pode
+       representar uma ótima oportunidade para adquirir novos biquínis e acessórios de praia com preços mais acessíveis. 
+    </h3>
+    <div class="input-group mb-3" style="width: 60%; margin: 0 auto;">
+      <span class="input-group-text" id="basic-addon1">E-mail</span>
+      <input type="text" class="form-control" placeholder="Digite seu E-mail" aria-label="E-mail" aria-describedby="basic-addon1">
+      <button type="button" class="btn btn-success" >Enviar</button>
+    </div>
+   </div>
+    <div class="container text-center" id="meio-ambiente">
+      <div class="row">
+        <div class="col">
+          <h1>Meio Ambiente</h1>
+          <p>
+            Além de nos preocuparmos com a diversidade de corpos, também estamos comprometidos com a sustentabilidade e o meio 
+            ambiente. Nossa loja adota práticas sustentáveis em todos os aspectos do negócio, desde a escolha dos materiais até a 
+            produção e distribuição dos nossos produtos. Nossos biquínis são produzidos com tecidos biodegradáveis e sustentáveis, 
+            como o poliéster reciclado e o tecido de fibra de bambu, que reduzem o impacto ambiental e contribuem para um futuro 
+            mais sustentável. Além disso, nossa loja também adota práticas de reciclagem e redução de resíduos em todas as etapas 
+            do processo de produção, desde a seleção das matérias-primas até a embalagem dos produtos. Estamos comprometidos em ser 
+            uma loja de biquínis que contribui para a preservação do meio ambiente e incentiva nossos clientes a adotarem práticas 
+            mais sustentáveis em suas vidas.
+          </p>
+        </div>
+        <div class="col">
+          <img src="assets/img/meioamb.jpg" alt="meio-ambiente">
+          
+        </div>
+      </div>
+    </div>
+    <div class="container-fundodif" id="valores">
+      <h1>Nossos Valores</h1>
+      <h2>Qualidade dos Produtos</h2>
+      <p>Prezamos pela qualidade das peças que comercializamos, trabalhando com materiais de alta qualidade e durabilidade.
+         Todas as nossas peças são produzidas com muito cuidado e atenção aos detalhes, garantindo conforto e segurança para
+         quem as utiliza.</p>
+      <div class="row">
+          <div class="col">
+            <img src="assets/img/Bikini-bro.png" alt="img-ult" id="img-ult">
+          </div>
+          <div class="col" id="fundo-text">
+            <h2>Diversidade</h2>
+            <p>
+              Nossa loja oferece uma grande variedade de modelos de biquínis, maiôs e saídas de praia, para atender às diferentes
+               preferências e necessidades dos clientes. Temos opções para todos os estilos e biotipos, desde os mais ousados até os
+                mais clássicos.
+            </p>
+            <h2>Política de Trocas</h2>
+            <p>
+              Entendemos que nem sempre a escolha da peça é fácil e que pode haver arrependimento ou necessidade de troca. 
+              Por isso, oferecemos uma política de trocas flexível, permitindo que o cliente troque a peça por outra de mesmo 
+              valor ou receba um vale-troca para usar em uma próxima compra.
+            </p>
+          </div>
+      </div>
+    </div>
+    </div>
+    <footer>
+      <div class="container" id="contato">
+        <p>Imagens e icons:</p>
+          <a  href="https://br.freepik.com" target="_blank">
+            <img src="assets/img/freepik.png" alt="freepik">
+          </a>
+        <p>© 2023 Rebeca do Nascimento Velasco.</p>
+      </div>
+    </footer>
+</body>
+</html>
